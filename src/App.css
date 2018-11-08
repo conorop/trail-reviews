@@ -2,17 +2,19 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.logo {
+  margin: auto;
+  float: left;
 }
 
 .App-header {
-  background-color: #222;
-  height: 50px;
-  padding: 20px;
-  color: white;
+  background-color: #fff;
+  border-bottom: 1px #D4D8DD solid;
+  height: 62px;
+  padding: 5px;
+  text-align: left;
 }
+
 
 .App-title {
   font-size: 32px;
@@ -22,7 +24,53 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.navButtons {
+  float: right;
+ 
+}
+
+.review {
+  border: 1px solid rgb(141, 141, 141);
+  border-radius: 5px;
+  padding-left: 20px;
+  background-color: white;
+  margin-bottom: 15px;
+  text-align: left;
+  width: 90%;
+}
+button {
+  display: inline-block;
+  border: none;
+  height: 50px;
+  border-radius: 4px;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  background: #0069ed;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, 
+              transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+  background: #0053ba;
+}
+
+button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+button:active {
+  transform: scale(0.99);
+}
+
+ul {
+  list-style: none;
 }
